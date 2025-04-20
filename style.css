@@ -1,0 +1,85 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: rgb(20, 20, 20); /* Fondo oscuro */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(255, 0, 0); /* Rojo vibrante para el título */
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(0, 255, 255); /* Cian brillante para enlaces */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 0); /* Amarillo en hover */
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: rgb(255, 165, 0); /* Naranja vibrante */
+    border-bottom: 2px solid rgb(255, 0, 255); /* Magenta */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada juego */
+.juego {
+    background-color: rgb(30, 30, 30);
+    border: 2px solid rgb(255, 0, 255); /* Magenta */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.juego h3 {
+    color: rgb(0, 255, 0); /* Verde neón */
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 255); /* Magenta brillante */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: rgb(255, 165, 0); /* Naranja en hover */
+}
+
+/* Pie de página */
+footer {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
